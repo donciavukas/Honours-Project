@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="361.0" prefWidth="550.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="honours.project.FXMLGuideController">
+   <children>
+      <Text layoutX="75.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Shor's algorithm quantum simulation" wrappingWidth="456.13671875">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Text>
+      <Button fx:id="contBtn" layoutX="245.0" layoutY="275.0" mnemonicParsing="false" onAction="#handleContinueAction" text="Continue" />
+      <Text layoutX="124.0" layoutY="74.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The purpose of this program is to help demonstrate how shor's algorithm would operate on a quantum computer." wrappingWidth="323.69140625" />
+      <VBox layoutX="40.0" layoutY="139.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Rules" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="1. Number N should be a positve number in integer form. Up to 4 digits long." />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="2. Number N cannot be a prime." />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="3. N cannot be a power of a prime number." />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="4. Value a is optional." />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
